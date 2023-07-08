@@ -41,6 +41,10 @@ export default function InputForm() {
                 <input placeholder="Password" type="password" name="pass" value={inputvalue.pass} onChange={inputchangehandler} />
                 <button className="btn btn-primary mx-3" onClick={socialhendler}>login with social account</button>
             </div>
+            <div className="input-group flex-nowrap">
+  <span className="input-group-text" id="addon-wrapping">@</span>
+  <input type="text" className="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping"/>
+</div>
         
         </>
     );
